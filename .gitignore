@@ -1,0 +1,45 @@
+# Data files (raw datasets, exports, and heavy CSVs)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.pickle
+
+# Deliverable archives & large binaries (>100MB violates GitHub limits)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary HTML exports and scratch files
+gg.html
+gg2.html
+scratch_code.py
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
